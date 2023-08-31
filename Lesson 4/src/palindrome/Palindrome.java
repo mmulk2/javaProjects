@@ -9,8 +9,6 @@ public class Palindrome {
 		for (int i=palinLength-1; i>=0;i--){
 			reverse = reverse + x.charAt(i);
 		}
-		System.out.println(x);
-		System.out.println(reverse);
 
 		if (x.equals(reverse))
 			System.out.println("Yes, it is a palindrome");
