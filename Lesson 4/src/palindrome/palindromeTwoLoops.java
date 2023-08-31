@@ -2,7 +2,7 @@
 package palindrome;
 import java.util.Scanner;
 
-public class palindrome {
+public class palindromeTwoLoops {
 	
 	public static void main(String args[]){
 		System.out.print("Please enter a palindrome: ");
