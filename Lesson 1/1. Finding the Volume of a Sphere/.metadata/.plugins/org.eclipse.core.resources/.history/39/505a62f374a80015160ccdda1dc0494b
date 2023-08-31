@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class SphereVol {
+
+	private final static float PIE = 3.14159265f;
+
+	public static void main(String args[]){
+		int radius = 0;
+		Scanner readInput = new Scanner(System.in);
+		
+		System.out.println("Please enter the radius of the sphere: ");
+		radius = readInput.nextInt();
+	
+		System.out.print("The Volume of the Sphere is: " + (float) ((4.0/3.0) * PIE * Math.pow(radius, 3)));
+
+	
+	}
+		
+}

@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class SphereVol {
+	
+	private final float pie  = 3.14159265f;
+	
+	private float Volume = 0;
+	private float radius = 0;
+	
+	Scanner readInput = new Scanner(System.in);
+	
+}

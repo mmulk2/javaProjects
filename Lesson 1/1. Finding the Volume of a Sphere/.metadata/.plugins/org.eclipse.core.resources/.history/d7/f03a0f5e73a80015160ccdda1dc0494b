@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class SphereVol {
+	
+	private final static float pie  = 3.14159265f;
+	private static float Volume ;
+	private static float radius = 0;
+	
+	public static float CalculateVol(float rad){
+		return Volume = (float) ((4.0/3.0) * pie * power (rad, 3)); 
+	}
+	
+	public static float power (float base, int pow){
+		float result = 1;
+		for (float i = 1.0f; i < pow ; i++ )
+			result *= base;
+		return result;
+	}
+	
+
+	public static void main(String args[]){
+		
+		Scanner readInput = new Scanner(System.in);
+		radius = readInput.nextInt();
+		System.out.println("Please enter the radius of the sphere.");
+		System.out.print("The Volume of the Sphere is: " + CalculateVol(radius));
+		readInput.close();
+	
+	}
+		
+}

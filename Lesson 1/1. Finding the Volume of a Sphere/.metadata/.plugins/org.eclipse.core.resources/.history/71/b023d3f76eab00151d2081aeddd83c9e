@@ -1,0 +1,20 @@
+
+package palindrome;
+import java.util.Scanner;
+
+public class palindrome {
+	
+	public static void main(String args[]){
+		boolean isRight = false;
+		System.out.print("Please enter a palindrome: ");
+		Scanner input = new Scanner(System.in);
+		String in = input.next();
+		//int i = 0;
+		char store = ' ';
+		for (int i=0 ; i< in.length(); i++){
+			store = in.charAt(i);
+			System.out.print(store);	
+		}
+	}
+
+}

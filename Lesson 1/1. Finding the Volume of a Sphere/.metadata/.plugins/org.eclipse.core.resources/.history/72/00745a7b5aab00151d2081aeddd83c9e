@@ -1,0 +1,27 @@
+
+package palindrome;
+import java.util.Scanner;
+
+public class palindrome {
+	
+	public static void main(String args[]){
+		System.out.print("Please enter a palindrome: ");
+		Scanner input = new Scanner(System.in);
+		while (input.hasNext()){
+			String in = input.next();
+			for (int i=in.length();i>0;i++){
+				for (int j=0; j<in.length();i++){
+					if (in.charAt(j)== in.charAt(i))
+						j++;
+					else
+						break;
+				}
+					
+			}
+			
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+
+package palindrome;
+import java.util.Scanner;
+
+public class palindrome {
+	
+	public static void main(String args[]){
+		System.out.print("Please enter a palindrome: ");
+		Scanner input = new Scanner(System.in);
+		String in = input.next();
+		while (input.hasNext()){
+			System.out.print(in);
+		}
+		
+		
+	}
+
+}
